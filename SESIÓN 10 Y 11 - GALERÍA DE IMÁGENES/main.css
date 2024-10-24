@@ -1,0 +1,18 @@
+header {
+    background-color: darkgray;
+    color: white;
+}
+
+section {
+    background-color: lightgray;
+}
+
+img {
+    width: 33%;
+    height: auto;
+    filter: saturate(0);
+}
+
+a:hover img {
+    filter: saturate(1);
+}
