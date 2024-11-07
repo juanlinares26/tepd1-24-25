@@ -2,6 +2,23 @@ body{
     margin: 0;
 }
 
+a:link{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    position: relative;
+    left: 10px;
+    color: aqua;
+    text-decoration: none;
+}
+
+a:visited{
+color: white;
+text-decoration: none;
+}
+
 #p{
 width: 20%;
 float: left;
@@ -30,6 +47,8 @@ width: 20%;
 header{
     padding: 10px;
     background-color:rgb(10, 61, 95);
+    position: fixed;
+    width: 100%;
 }
 
 ul.cabecera{
@@ -39,6 +58,8 @@ ul.cabecera{
 ul.cabecera li{
     display: inline;
     color: white;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .imagen1{
