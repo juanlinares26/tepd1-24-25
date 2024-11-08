@@ -1,16 +1,47 @@
-header {
-    background-color: darkgray;
-    color: white;
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-weight: normal;
+    color: black;
+    letter-spacing: 8px;
+}
+
+h2{
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 12pt;
+    color: black;
+    letter-spacing: 3px;
 }
 
 section {
-    background-color: lightgray;
+    display: flex;
+    margin: 5px;
+    margin-bottom: 0;
+}
+
+.columna{
+    flex: 25%;
+    margin: 5px;
+    margin-bottom: 0;
 }
 
 img {
-    width: 33%;
+    width: 100%;
     height: auto;
     filter: saturate(0);
+    margin-bottom: 5px;
+    transition: 0.5s;
 }
 
 a:hover img {
