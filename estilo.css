@@ -22,6 +22,8 @@ ul{
     font-size: 20pt;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
+    display: flex;
+    flex-direction: column;
 }
 
 a:link{
