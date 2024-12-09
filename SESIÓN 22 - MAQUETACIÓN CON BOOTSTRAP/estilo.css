@@ -1,0 +1,33 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    font-family: Helvetica, sans-serif;
+}
+
+ul{
+    font-family: Helvetica, sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+ul li{
+    padding-bottom: 2vh;
+}
+
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+a:link{
+    text-decoration: none;
+    color: black;
+}
